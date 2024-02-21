@@ -75,7 +75,7 @@ require_once(__DIR__) . '/../includes/app.php';
                         <td><a href="?parent_id=27" class="text-hover-primary text-gray-800"><?=$category['name']?></a></td>
                         <td><a href="?parent_id=27" class="text-hover-primary text-gray-800"><?=$category['status']?></a></td>
                         <td>
-                        <?php if ($_GET['role'] === 'superadmin'): ?>
+                        <?php if ( $role === 'superadmin'): ?>
                                 <div class="text-end">
                                     <div class="btn-group">
                                         <a href="category_edit.php?id=<?=$category['id']?>" class="btn btn-success px-4 btn-sm kt_modal_stacked_edit">

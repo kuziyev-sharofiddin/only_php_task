@@ -2,6 +2,7 @@
 $title = 'Category Edit';
 require_once(__DIR__) . '/../includes/app.php';
 require_once __DIR__ . '/../../Controller/Category.php';
+
 ?> 
     <div class="app-container container-lg  pt-10">
         <div class="content-header row mb-6">
